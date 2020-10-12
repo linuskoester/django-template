@@ -1,3 +1,3 @@
 # django-template
 
-Repository template for dockerized Django development
+Template repository for dockerized Django development
