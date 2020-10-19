@@ -15,7 +15,7 @@ jobs:
             - name: Include version number
               run: echo "${GITHUB_REF/refs\/tags\//}" > version.txt
             - name: Push to GitHub Packages
-              uses: docker/build-push-action@v2
+              uses: docker/build-push-action@v1.1.1
               with:
                   username: ${{ github.actor }}
                   password: ${{ secrets.GITHUB_TOKEN }}
